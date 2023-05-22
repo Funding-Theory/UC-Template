@@ -56,9 +56,6 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-.env
-
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
@@ -89,5 +86,10 @@ sw.*
 # Vim swap files
 *.swp
 
+# dotenv environment variables file
+# .env
+
+# Added by Animesh
 git_bash
 updated_file.list
+
