@@ -1,0 +1,41 @@
+{
+	"name": "naturefit",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"lint:prettier": "prettier --check .",
+		"lint": "yarn lint:prettier",
+		"lintfix": "prettier --write --list-different ."
+	},
+	"dependencies": {
+		"@nuxtjs/axios": "^5.13.6",
+		"@nuxtjs/google-fonts": "^3.0.1",
+		"core-js": "^3.25.3",
+		"flowbite": "^1.6.5",
+		"nuxt": "^2.15.8",
+		"v-click-outside": "^3.2.0",
+		"vue": "^2.7.10",
+		"vue-server-renderer": "^2.7.10",
+		"vue-template-compiler": "^2.7.10",
+		"vue-toastification": "^1.7.14"
+	},
+	"devDependencies": {
+		"@iconify/icons-material-symbols": "^1.2.40",
+		"@iconify/icons-tabler": "^1.2.76",
+		"@iconify/vue2": "^2.1.0",
+		"@nuxtjs/color-mode": "2",
+		"@nuxtjs/dayjs": "^1.4.1",
+		"@nuxtjs/dotenv": "^1.4.1",
+		"autoprefixer": "^10.4.14",
+		"eslint-config-prettier": "^8.5.0",
+		"lodash": "^4.17.21",
+		"postcss": "^8.4.23",
+		"prettier": "^2.7.1",
+		"tailwindcss": "^3.3.2",
+		"vuex-map-fields": "^1.4.1"
+	}
+}
